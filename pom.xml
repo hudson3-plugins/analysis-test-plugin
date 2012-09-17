@@ -12,7 +12,7 @@
   <artifactId>analysis-test</artifactId>
   <packaging>jar</packaging>
   <name>Static Analysis Test Utilities</name>
-  <version>1.9-h-1</version>
+  <version>1.9-h-2-SNAPSHOT</version>
   <description>This plug-in provides test utilities for the static code analysis plug-ins.</description>
   <url>http://wiki.hudson-ci.org/display/HUDSON/Static+Code+Analysis+Plug-ins</url>
 
