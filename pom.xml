@@ -1,0 +1,70 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>org.hudsonci.plugins</groupId>
+    <artifactId>analysis-pom</artifactId>
+    <version>3.0.0-RC2</version>
+    <relativePath>../analysis-pom/pom.xml</relativePath>
+  </parent>
+
+  <groupId>org.hudsonci.plugins</groupId>
+  <artifactId>analysis-test</artifactId>
+  <packaging>jar</packaging>
+  <name>Static Analysis Test Utilities</name>
+  <version>1.9-h-1-SNAPSHOT</version>
+  <description>This plug-in provides test utilities for the static code analysis plug-ins.</description>
+  <url>http://wiki.hudson-ci.org/display/HUDSON/Static+Code+Analysis+Plug-ins</url>
+
+  <licenses>
+    <license>
+      <name>MIT license</name>
+      <comments>All source code is under the MIT license.</comments>
+    </license>
+  </licenses>
+  
+    <developers>
+        <developer>
+            <name>Ulli Hafner</name>
+            <id>drulli</id>
+            <email>ullrich.hafner@gmail.com</email>
+        </developer>
+    </developers>
+  
+  <properties>
+    <hudsonTags>misc</hudsonTags>
+  </properties>
+  
+  <dependencies>
+    <dependency>
+      <groupId>org.hudsonci.plugins</groupId>
+      <artifactId>analysis-core</artifactId>
+      <version>1.47-h-1-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.8.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-all</artifactId>
+      <version>1.8.5</version>
+    </dependency>
+    <dependency>
+      <groupId>org.hudsonci.plugins</groupId>
+      <artifactId>violations</artifactId>
+      <version>0.7.11-h-1</version>
+    </dependency>
+  </dependencies>
+
+  <scm>
+    <connection>scm:git:git://github.com/hudson3-plugins/${project.artifactId}-plugin.git</connection>
+    <developerConnection>scm:git:git@github.com:hudson3-plugins/${project.artifactId}-plugin.git</developerConnection>
+    <url>https://github.com/hudson3-plugins/${project.artifactId}-plugin</url>
+  </scm>
+
+</project>  
+
