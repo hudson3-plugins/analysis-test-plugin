@@ -10,7 +10,7 @@
   <artifactId>analysis-test</artifactId>
   <packaging>jar</packaging>
   <name>Static Analysis Test Utilities</name>
-  <version>1.10-h-1</version>
+  <version>1.10-h-2-SNAPSHOT</version>
   <description>This plug-in provides test utilities for the static code analysis plug-ins.</description>
   <dependencies>
     <dependency>
