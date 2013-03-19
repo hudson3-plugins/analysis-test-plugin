@@ -4,7 +4,7 @@
   <parent>
     <groupId>org.hudsonci.plugins</groupId>
     <artifactId>analysis-pom</artifactId>
-    <version>3.0.0</version>
+    <version>1.42-h-2-SNAPSHOT</version>
     <relativePath />
   </parent>
   <artifactId>analysis-test</artifactId>
@@ -16,7 +16,7 @@
     <dependency>
       <groupId>org.hudsonci.plugins</groupId>
       <artifactId>analysis-core</artifactId>
-      <version>1.48-h-1</version>
+      <version>1.49-h-2-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>junit</groupId>
